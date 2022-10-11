@@ -1,1 +1,2 @@
-type nul > newfile.bat
+SET /P file=new file name: 
+type nul > %file%
